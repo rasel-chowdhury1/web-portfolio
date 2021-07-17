@@ -5,7 +5,10 @@ body {
 h1 {
     font-size: 50;
 }
-.name-highlight{
+h2 {
+    font-size: 40;
+}
+.orange-highlight{
     color: orange;  
 }
 .half-width{
@@ -30,4 +33,35 @@ section {
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
+}
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 4px;
+}
+.dream-highlight {
+    color: green;
+}
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    background-color: white;
+    height: 70%;
+}
+.experience-area {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack {
+    border-image: linear-gradient(to bottom,red,yellow) 1 100%;
+}
+#baby {
+    border-image: linear-gradient(to bottom,blue,rgb(255, 0, 242)) 1 100%;
+}
+footer p {
+    text-align: center;
+    size: 20;
 }
